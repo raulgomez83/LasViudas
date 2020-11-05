@@ -1,0 +1,38 @@
+
+  .modal__container {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5em;
+    text-align: center;
+    z-index:10;
+
+ }
+ .modal__container .modal__box {
+  background:darken($color: $yellow, $amount: 85);
+  color: $primary;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  & header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+  }
+  & ul{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+  }
+}
+ 

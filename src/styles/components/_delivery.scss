@@ -1,0 +1,14 @@
+.delivery{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & button{
+        background-color:darken($color: $darkyellow, $amount: 60);
+        color: $lightyellow;
+        width: 20rem;
+        height: 4rem;
+
+    }
+}
