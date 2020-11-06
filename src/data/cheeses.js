@@ -86,7 +86,7 @@ export const cheeses=[
         "region":"Gran Bretaña",
         "maduración":"Fresco",
         "intensidad":"Muy Fuerte",
-        "image":"./assets/images/stilton.jpeg",
+        "image":"../assets/images/stilton.jpeg",
         "descripcion":"Es un queso azul. Está elaborado con leche de vaca (35,5% mat. grasa). Su corteza es enmohecida. Se toma en distintos grados de maduración: tierno, semi-curado, curado. Su pasta puede ser de color blanco o naranja.",
     },
     {
@@ -96,7 +96,7 @@ export const cheeses=[
         "region":"Italia",
         "maduración":"Semicurado",
         "intensidad":"Pronunciada",
-        "image":"./assets/images/taleggio.jpeg",
+        "image":"../assets/images/taleggio.jpeg",
         "descripcion":"Es un queso blando con una corteza delgada coloreada de rojo, con un contenido de grasas del 48 %.El queso Taleggio se hace con leche pasteurizada y cruda.",
     },{
         "id":"arzaua",
@@ -105,7 +105,7 @@ export const cheeses=[
         "region":"Galicia",
         "maduracion":"Fresco",
         "intensidad":"Suave",
-        "image":"./assets/images/arzua.jpeg",
+        "image":"../assets/images/arzua.jpeg",
         "descripcion":"Es un queso de pasta blanda, elaborado con leche cruda o pasteurizada, tiene un período de maduración mínimo de seis días, y presenta forma lenticular, o cilíndrica con los bordes redondeados. Su corteza es fina y elástica, de color amarillo medio a oscuro, brillante, limpia y lisa. La pasta es de color uniforme, entre blanca marfil y amarilla pálida, y tiene aspecto brillante, sin grietas, presentando pocos ojos, pequeños, angulosos o redondeados y de distribución irregular, más en el elaborado con leche cruda que en el elaborado con leche pasteurizada.",
     },
     {
@@ -115,7 +115,7 @@ export const cheeses=[
         "region":"Francia",
         "maduracion":"Semicurado",
         "intensidad":"Fuerte",
-        "image":"./assets/images/comte.jpeg",
+        "image":"../assets/images/comte.jpeg",
         "descripcion":"Tiene forma de enorme rueda que puede alcanzar los 40 kilos. Hacen falta alrededor de 450 litros de leche para producir una sola rueda de comté. Tiene entre un 30 y un 45% de materia grasa. La corteza se trata con Bacillus lineus, de manera que va del amarillo al pardo. La pasta es firme, ligera y flexible: su color va del amarillo crema al oscuro. Presenta algunos ojos. El comté se caracteriza por su gran riqueza aromática, debido notablemente a las condiciones de maduración pero sobre todo a la naturaleza misma de la flora del Jura, que agrupa a más de 2.000 especies abarcando más de un 40% de la flora francesa. Tiene un sabor rico y variado, dependiendo del lugar de fabricación. Pueden aparecer aromas florales y sabores a fruta en verano y a nuez en invierno."
     },
     {
@@ -125,7 +125,7 @@ export const cheeses=[
         "region":"España",
         "maduracion":"Añejo",
         "intensidad":"Fuerte",
-        "image":"./assets/images/zamorano.jpeg",
+        "image":"../assets/images/zamorano.jpeg",
         "descripcion":"El queso zamorano está elaborado y curado en la provincia española de Zamora a partir de leche producida por ganado ovino de razas autóctonas churra y castellana  y cuenta con una curación mínima de cien días",
     },
     {
@@ -135,7 +135,7 @@ export const cheeses=[
         "region":"Gran Bretaña",
         "maduración":"Fresco",
         "intensidad":"Muy Fuerte",
-        "image":"./assets/images/stilton.jpeg",
+        "image":"../assets/images/stilton.jpeg",
         "descripcion":"Es un queso azul. Está elaborado con leche de vaca (35,5% mat. grasa). Su corteza es enmohecida. Se toma en distintos grados de maduración: tierno, semi-curado, curado. Su pasta puede ser de color blanco o naranja.",
     },
     {
@@ -145,7 +145,7 @@ export const cheeses=[
         "region":"Italia",
         "maduración":"Semicurado",
         "intensidad":"Pronunciada",
-        "image":"./assets/images/taleggio.jpeg",
+        "image":"../assets/images/taleggio.jpeg",
         "descripcion":"Es un queso blando con una corteza delgada coloreada de rojo, con un contenido de grasas del 48 %.El queso Taleggio se hace con leche pasteurizada y cruda.",
     },{
         "id":"talegagewio",
@@ -154,7 +154,7 @@ export const cheeses=[
         "region":"Italia",
         "maduración":"Semicurado",
         "intensidad":"Pronunciada",
-        "image":"./assets/images/taleggio.jpeg",
+        "image":"../assets/images/taleggio.jpeg",
         "descripcion":"Es un queso blando con una corteza delgada coloreada de rojo, con un contenido de grasas del 48 %.El queso Taleggio se hace con leche pasteurizada y cruda.",
     },{
         "id":"talegasegio",
@@ -163,7 +163,7 @@ export const cheeses=[
         "region":"Italia",
         "maduración":"Semicurado",
         "intensidad":"Pronunciada",
-        "image":"./assets/images/taleggio.jpeg",
+        "image":"../assets/images/taleggio.jpeg",
         "descripcion":"Es un queso blando con una corteza delgada coloreada de rojo, con un contenido de grasas del 48 %.El queso Taleggio se hace con leche pasteurizada y cruda.",
     },
 ]

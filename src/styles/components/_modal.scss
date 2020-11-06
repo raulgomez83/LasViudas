@@ -35,4 +35,25 @@
     height: 40vh;
   }
 }
- 
+.modal__container__cheese{
+  background:darken($color: $yellow, $amount: 85);
+    font-size: 1.5em;
+    text-align: center;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+
+}
+.modal__container__cheese .modal__box__cheese{
+  position: relative;
+  top:50%;
+  left: 25%;
+  color: $primary;
+  opacity: 0.9;
+  text-align: center;
+  z-index:10;
+  height: 10%;
+  width: 50%;
+}
