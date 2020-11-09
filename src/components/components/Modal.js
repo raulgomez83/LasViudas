@@ -1,6 +1,7 @@
+
 import React from 'react'
 import { Link } from 'react-router-dom';
-
+import { Icon } from '@material-ui/core';
 
 export const Modal = ({open,handleModal}) => {
     if (!open) return null;
@@ -10,7 +11,7 @@ export const Modal = ({open,handleModal}) => {
             <nav className="modal__box">
                 <header>
                     <p>Las viudas</p>
-                    <button onClick={handleModal}>Close modal</button>
+                    <Icon onClick={handleModal} style={{ fontSize: 50 }} className="modal__icon__close">clear</Icon>
                 </header>
                 <ul>
                     <li><Link className="link"to="/">Home</Link></li>

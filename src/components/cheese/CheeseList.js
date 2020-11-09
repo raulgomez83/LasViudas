@@ -1,7 +1,8 @@
 import React from 'react';
 import {cheeses} from "../../data/cheeses";
-import { Delivery } from '../Delivery';
-import { Menubar } from '../Menubar';
+import { Delivery } from '../components/Delivery';
+import { Menubar } from '../components/Menubar';
+
 import { CheeseCard } from './CheeseCard';
 
 export const CheeseList = () => {

@@ -185,24 +185,16 @@ margin: 3rem;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #f00;
+  background: $lightyellow;
   transition: 0.7s;
   z-index: 1;
   & img{width: 100%;
   height: 100%;}
+  & span{
+    color: darken($color: $darkyellow, $amount: 50)
+  }
 }
 
-.container .card:nth-child(1) .icon {
-  background: #e07768;
-}
-
-.container .card:nth-child(2) .icon {
-  background: #6eadd4;
-}
-
-.container .card:nth-child(3) .icon {
-  background: #4aada9;
-}
 
 
 .container .card .face {

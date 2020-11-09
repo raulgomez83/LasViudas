@@ -5,12 +5,14 @@ import {
   Route,
   Redirect
 } from "react-router-dom";
-import { Homepage } from '../components/Homepage';
-import { About } from '../components/main/About';
-import { Contact } from '../components/main/Contact';
-import { Offer } from '../components/main/Offer';
-import { CheeseList } from '../components/cheese/CheeseList'; 
 import { CheeseItem } from '../components/cheese/CheeseItem';
+import { CheeseList } from '../components/cheese/CheeseList';
+import { About } from '../components/pages/About';
+import { Contact } from '../components/pages/Contact';
+import { Homepage } from '../components/pages/Homepage';
+import { Offer } from '../components/pages/Offer';
+import {OpenPdf} from "../components/components/OpenPdf"
+
 
 
 export const AppRouter = () => {
@@ -24,6 +26,7 @@ export const AppRouter = () => {
                   <Route exact path="/contact" component={Contact}/>
                   <Route exact path="/quesos" component={CheeseList}/>
                   <Route exact path="/queso/:Id" component={CheeseItem}/>
+                  <Route exact path="/pdf" component={OpenPdf}/>
 
                   <Redirect to="/" />
                 </Switch>

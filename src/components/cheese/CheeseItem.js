@@ -2,9 +2,9 @@
 import React, { useMemo, useState } from 'react';
 import { Redirect, useParams } from 'react-router-dom';
 
-import { Delivery } from '../Delivery';
-import { CheeseModal } from '../main/CheeseModal';
-import { Menubar } from '../Menubar';
+import { Delivery } from '../components/Delivery';
+import { Menubar } from '../components/Menubar';
+import { CheeseModal } from '../pages/CheeseModal';
 import {getCheeseById} from "./getCheeseById";
 
 export const CheeseItem = () => {
@@ -32,6 +32,7 @@ export const CheeseItem = () => {
                 <div className="face face1">
                     <div className="content">
                         <div className="icon">
+                            <span>Detalles</span>
                             <img src={image} alt={nombre}/>
                         </div>
                     </div>

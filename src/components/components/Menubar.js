@@ -1,5 +1,5 @@
+import { Icon } from '@material-ui/core';
 import React, {useState} from 'react'
-import menuIcon from "../images/menu.png"
 import { Modal } from './Modal'
 
 
@@ -12,12 +12,9 @@ export const Menubar = () => {
     }
 
     return (
-        <div className="__menubar mt-1 mb-5">
+        <div className="__menubar">
               <h3>LasViudas</h3>
-              <img src={menuIcon} 
-              alt="icono de menu" 
-              onClick={handleModal}
-               />
+              <Icon onClick={handleModal} style={{ fontSize: 50 }} className="modal__icon__open">menu</Icon>
               <Modal open={isOpen}
               handleModal={handleModal}>
               </Modal>

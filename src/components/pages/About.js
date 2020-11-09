@@ -2,9 +2,10 @@ import React from 'react';
 
 import aboutpicture1 from "../../images/queso nueces oscuro.jpeg";
 import aboutpicture2 from "../../images/queso uvas oscuro.jpeg";
-import { Delivery } from '../Delivery';
+import { Delivery } from '../components/Delivery';
+import { Menubar } from '../components/Menubar';
 
-import { Menubar } from '../Menubar';
+
 
 export const About = () => {
     return (
