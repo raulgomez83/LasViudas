@@ -58,16 +58,16 @@
   width: 50%;
 }
 .modal__icon__close{
-  transition: 0.2s;
+  transition: 0.5s;
    &:hover{
-      font-weight: bolder;
-      transform: scale(1.2)
+      transform: scale(1.4)
    }
 }
 .modal__box li{
-  transition: 0.3s;
+  transition: 0.4s;
   &:hover{
     background-color: darken($color: $darkyellow, $amount: 70);
     transform: scale(1.4);
+    cursor: pointer;
   }
 }

@@ -11,7 +11,8 @@ export const About = () => {
     return (
 <div className="container">
     <Menubar/>
-    <section className="home__about__box">
+    <div className="container animate__animated animate__zoomIn">
+    <section className="home__about__box ">
         <div className="home__about__pictures">
            <img src={aboutpicture1} alt="queso con nueces"  />
            <img src={aboutpicture2} alt="quesos apilados"  />
@@ -24,6 +25,7 @@ export const About = () => {
            </p>
         </article>
     </section>
+    </div>
     <Delivery/>
 </div>
     )

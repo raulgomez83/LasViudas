@@ -45,7 +45,7 @@ export const CheeseItem = () => {
                            <li>Región: {region}</li>
                            <li>Maduración: {maduracion}</li>
                            <li>Intensidad: {intensidad}</li>
-                           <li><button onClick={handleCheeseModal}>Descripción</button></li>
+                           <li className="cheese__button" onClick={handleCheeseModal}>Descripción</li>
                         </ul>
                 </div>
             </div>

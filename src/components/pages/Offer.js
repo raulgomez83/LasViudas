@@ -14,16 +14,16 @@ import { Delivery } from '../components/Delivery';
 
 export const Offer = () => {
 
-
+  
     return (
         <div className="container">
         <Menubar/>
-        <section className="home__offer__box">
+        <section className="home__offer__box animate__animated animate__zoomIn">
             <h2>Que ofrecemos </h2>
             <div className="home__offer__articles">
                <article className="home__offer__articles__item">
                    <img  src={offerpicture1} alt="menú"/>
-                   <Link to="/pdf"className="home__offer__articles__button" ><h3>Nuestro menú</h3></Link>
+                   <h3 className="home__offer__articles__item__link"><Link  to="/menuPdf">Nuestro menú</Link></h3>
                    <p>Donde podrás encontrar elaboraciones y sugerencias que varían según la temporada</p>
                 </article>
                 <article className="home__offer__articles__item">
