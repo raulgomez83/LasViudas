@@ -134,15 +134,25 @@
   }
   /////////////////////////////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////////////////
-.cheese__item{
+  .cheese__item__title{
+    font-family: "Satisfy";
+  font-size: 4rem;
+
+}
+  .cheese__item{
     align-items: center;
     background: rgba($color: $darkyellow, $alpha: 0.6);
     display: flex;
     justify-content: space-between;
     width: auto;
+
     & h6{
       max-width: 20rem;
       margin: 1rem;
+      padding-right: 1rem;
+    }
+    & img{
+      height: 100%;
     }
 }
 .cheese__item__data{
@@ -153,15 +163,22 @@
         justify-content: space-evenly;
         list-style: none;
         margin: 3rem;
-       
 }
 .cheese__item__data__link{
   color: darken($color: $darkyellow, $amount: 60);
-  padding: 0.2rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0.5rem;
   transition: 0.6s;
   &:hover{
     text-decoration: underline;
   }
    
 }
+.cheese__item__data__description{
+  transition: 0.5s;
+  &:hover{
+    transform: scale(1.2);
+}
 
+}

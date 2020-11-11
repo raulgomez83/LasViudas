@@ -18,7 +18,7 @@ export const CheeseItem = () => {
     return (
         <div className="container">
             <Menubar/>
-            <h2>{nombre}</h2>
+            <h2 className="cheese__item__title">{nombre}</h2>
             <div className="cheese__item animate__animated animate__zoomIn" >
                 <img src={image} alt={nombre}/>
                 <ul className="cheese__item__data">
@@ -27,10 +27,10 @@ export const CheeseItem = () => {
                     <li>Maduración: <b>{maduracion}</b></li>
                     <li>Intensidad: <b>{intensidad}</b></li>
                 </ul>
-                <section>
-                    <h5>Descripción:</h5>
-                    <h6>{descripcion}</h6>
-                    <Link className="cheese__item__data__link"to="/quesos">Volver</Link>
+                <section className="mt-1">
+                    <h5 >Descripción:</h5>
+                    <h6  className="cheese__item__data__description">{descripcion}</h6>
+                    <Link className="cheese__item__data__link "to="/quesos">Volver</Link>
                 </section>
             </div>
             <Delivery/>

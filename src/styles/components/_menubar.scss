@@ -1,8 +1,11 @@
 .__menubar {
     align-items: center;
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-between;
+    width: 90%;
+}
+.menubar__logo{
+    width: 7rem;
 }
 .modal__icon__open{
     width: 3rem;

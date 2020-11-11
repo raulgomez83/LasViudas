@@ -9,21 +9,20 @@ import offerpicture3 from "../../images/queso viejo.jpeg";
 import { Menubar } from '../components/Menubar';
 import { Delivery } from '../components/Delivery';
 
-
-
+import pdf from "../../images/menu.pdf";
 
 export const Offer = () => {
-
-  
     return (
         <div className="container">
         <Menubar/>
         <section className="home__offer__box animate__animated animate__zoomIn">
-            <h2>Que ofrecemos </h2>
+            <h2>Te ofrecemos </h2>
             <div className="home__offer__articles">
                <article className="home__offer__articles__item">
                    <img  src={offerpicture1} alt="menú"/>
-                   <h3 className="home__offer__articles__item__link"><Link  to="/menuPdf">Nuestro menú</Link></h3>
+                   <a href={pdf}
+                   download="menú"
+                    rel="noopener"><h3 className="home__offer__articles__item__link">Nuestro menú</h3></a>
                    <p>Donde podrás encontrar elaboraciones y sugerencias que varían según la temporada</p>
                 </article>
                 <article className="home__offer__articles__item">
