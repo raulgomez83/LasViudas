@@ -5,13 +5,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    & h1{
-      
-        font-family: "Rock Salt";
-    }
+
+    
     & img{
         height: 60vh;
-        width:auto;
+        width:auto
     }
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////
