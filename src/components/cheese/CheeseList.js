@@ -9,7 +9,7 @@ export const CheeseList = () => {
     return (
         <div className="container">
             <Menubar/>
-            <h3 className="animate__animated animate__fadeIn">Nuestra selección de quesos</h3>
+            <h2 className="animate__animated animate__fadeIn">Nuestra selección de quesos</h2>
             <div className="cheese__list__container">
             {cheeses.map( cheese =>{
                 return <CheeseCard key={cheese.id} {...cheese}/>

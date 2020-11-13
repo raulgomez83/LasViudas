@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom'
 
 export const CheeseCard = ({nombre,id,image}) => {
     return (
-        
 <div className="cheese__card__container" >
     <div className="cheese__card  ">
         <div className="card-front">

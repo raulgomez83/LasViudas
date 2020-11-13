@@ -5,7 +5,10 @@
     width: 90%;
 }
 .menubar__logo{
-    width: 7rem;
+    width: 10rem;
+    position: relative;
+    top:9px;
+    z-index: 2;
 }
 .modal__icon__open{
     width: 3rem;
