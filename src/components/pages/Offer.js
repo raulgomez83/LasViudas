@@ -16,7 +16,6 @@ export const Offer = () => {
         <div className="container">
         <Menubar/>
         <section className="home__offer__box animate__animated animate__zoomIn">
-            <h2>Te ofrecemos </h2>
             <div className="home__offer__articles">
                <article className="home__offer__articles__item">
                    <img  src={offerpicture1} alt="menú"/>
