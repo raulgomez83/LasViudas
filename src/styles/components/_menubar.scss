@@ -7,7 +7,8 @@
 .menubar__logo{
     width: 12rem;
     position: relative;
-    top:9px;
+    top:5px;
+    right: 3rem;
     z-index: 2;
 }
 .modal__icon__open{
@@ -22,4 +23,19 @@
 a{
     margin: 1rem;
     color:$dark
+}
+
+@media (max-width:500px){
+
+    .__menubar {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+}
+.menubar__logo{
+    width: 12rem;
+    position: static;
+
+}
 }

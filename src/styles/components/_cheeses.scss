@@ -135,7 +135,7 @@
   /////////////////////////////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////////////////
   .cheese__item__title{
-    font-family: "Satisfy";
+  font-family: "Satisfy";
   font-size: 4rem;
 
 }
@@ -181,4 +181,29 @@
     transform: scale(1.2);
 }
 
+}
+
+@media (max-width:500px){
+
+.container{
+  height: auto;
+}.cheese__item{
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  & img{
+    margin-top:1rem ;
+    width: 70vw;
+  }
+}
+.cheese__item__title{
+  font-size: 3rem;
+margin: 1rem;}
+}
+@media (max-width:1080px){
+
+  .cheese__item{
+width: 90%;
+
+  }
 }

@@ -1,6 +1,10 @@
+
+import React, {useState} from 'react';
+
 import { Icon } from '@material-ui/core';
-import React, {useState} from 'react'
-import { Modal } from './Modal'
+
+import { Modal } from './Modal';
+
 import logo from "../../images/logo.png"
 
 

@@ -18,7 +18,7 @@ export const Offer = () => {
         <section className="home__offer__box animate__animated animate__zoomIn">
             <div className="home__offer__articles">
                <article className="home__offer__articles__item">
-                   <img  src={offerpicture1} alt="menú"/>
+                   <img className="home__offer__articles__item__image"src={offerpicture1} alt="menú"/>
                    <a href={pdf}
                    download="menú"
                     rel="noopener"><h3 className="home__offer__articles__item__link">Nuestro menú</h3></a>
@@ -30,7 +30,7 @@ export const Offer = () => {
                    <p>Escoge entre los mejores vinos que seleccionamos con mimo para nuestros clientes</p>
                 </article>
                 <article className="home__offer__articles__item">
-                   <img  src={offerpicture3} alt="quesos"/>
+                   <img  className="home__offer__articles__item__image"src={offerpicture3} alt="quesos"/>
                    <h3 className="home__offer__articles__item__link"><Link to="/quesos">Nuestros quesos</Link></h3>
                    <p>Donde disfrutarás de más de 50 variedades tanto nacionales como internacionales</p>
                 </article>

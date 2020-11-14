@@ -12,7 +12,7 @@ export const Modal = ({open,handleModal}) => {
         <div className="modal__container">
             <nav className="modal__box">
                 <header>
-                    <h1>Las viudas</h1>
+                    <h1>CheeseBar</h1>
                     <Icon onClick={handleModal} style={{ fontSize: 50 }} className="modal__icon__close">clear</Icon>
                 </header>
                 <ul>
