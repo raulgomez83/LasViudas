@@ -37,18 +37,14 @@
   }
 
   @media (max-width:500px){
-    .carousel{
-      height: 55vh;
-    }
     .carousel img {
-      margin-top: 2rem;
       width: 90%;
-      height: 40vh;
+      height: 35vh;
     }
     @media (min-width:501px) and (max-width:1080px){
       .carousel img {
-        width:20rem;
-        height: 30rem;
+        width: 90%;
+        height: 75vh;
       }
     }
   }
