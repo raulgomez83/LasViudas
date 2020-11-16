@@ -12,7 +12,7 @@ export const CarouselImages = () => {
 <div className="carousel">
 			<ul className="carousel__box">
 			    <li><img src={home} alt="home"/></li>
-				  <li><img src={azul}alt="azul"/></li>
+				<li><img src={azul}alt="azul"/></li>
 			  	<li><img src={stand} alt="home"/></li>
 			  	<li><img src={comino} alt="azul"/></li>
 			</ul>
