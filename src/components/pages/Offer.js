@@ -21,17 +21,17 @@ export const Offer = () => {
                    <img className="home__offer__articles__item__image"src={offerpicture1} alt="menú"/>
                    <a href={pdf}
                    download="menú"
-                    rel="noopener"><h3 className="home__offer__articles__item__link">Nuestro menú</h3></a>
+                    rel="noopener"><h3 className="home__offer__articles__item__link">Menú</h3></a>
                    <p>Donde podrás encontrar elaboraciones y sugerencias que varían según la temporada</p>
                 </article>
                 <article className="home__offer__articles__item">
                    <img  className="home__offer__articles__item__image"src={offerpicture2} alt="vinos"/>
-                   <h3>Nuestra bodega</h3>
+                   <h3>Bodega</h3>
                    <p>Escoge entre los mejores vinos que seleccionamos con mimo para nuestros clientes</p>
                 </article>
                 <article className="home__offer__articles__item">
                    <img  className="home__offer__articles__item__image"src={offerpicture3} alt="quesos"/>
-                   <h3 className="home__offer__articles__item__link"><Link to="/quesos">Nuestros quesos</Link></h3>
+                   <h3 className="home__offer__articles__item__link"><Link to="/quesos">Quesos</Link></h3>
                    <p>Donde disfrutarás de más de 50 variedades tanto nacionales como internacionales</p>
                 </article>
             </div>
