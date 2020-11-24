@@ -18,10 +18,10 @@ export const About = () => {
            <img src={aboutpicture2} alt="quesos apilados"  />
         </div>
         <article className="home__about__article">
-           <h3>About Us</h3>
+           <h3 className="mb-1">Sobre nosotros</h3>
             <p>
-            We have been serving irresistible comfort food since 1999. Our mission is to keep you smiling with every bite.
-            Treat yourself to a feel-good meal today!
+            El primer Cheese Bar de A Coruña, experimenta los sabores del queso en
+            todas sus modalidades en un ambiente amigable y con encanto.
            </p>
         </article>
     </section>

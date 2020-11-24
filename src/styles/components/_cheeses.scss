@@ -1,5 +1,6 @@
 .cheese__list__container{
     align-items: center;
+    background-color: rgba($color: $yellow, $alpha: 0.6);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -15,8 +16,8 @@
     margin :0.5rem
 }
   .cheese__card {
-    width: 12rem;
-    height: 9rem;
+    width: 15rem;
+    height: 12rem;
     transform-style: preserve-3d;
     transition: .6s .1s;
     margin:0.2rem
@@ -82,6 +83,7 @@
   /* figcaption */
   figcaption {
     width: 100%;
+    font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.6;
     letter-spacing: 2px;
