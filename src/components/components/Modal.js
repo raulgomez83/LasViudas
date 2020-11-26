@@ -16,8 +16,6 @@ export const Modal = ({open,handleModal}) => {
                 </header>
                 <ul>
                     <li><Link className="link"to="/">Inicio</Link></li>
-                    <li><Link className="link"to="/about">Sobre nosotros...</Link></li>
-                    <li><Link className="link"to="/oferta">Oferta</Link></li>
                     <li><Link className="link"to="/quesos">Quesos</Link></li>
                     <li><Link className="link"to="/contact">Contacto</Link></li>
                 </ul>

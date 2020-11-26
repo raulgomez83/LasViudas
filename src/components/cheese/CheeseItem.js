@@ -2,7 +2,6 @@
 import React, { useMemo} from 'react';
 import { Link, Redirect, useParams } from 'react-router-dom';
 
-import { Delivery } from '../components/Delivery';
 import { Menubar } from '../components/Menubar';
 import {getCheeseById} from "./getCheeseById";
 
@@ -16,24 +15,23 @@ export const CheeseItem = () => {
     const {nombre,origen,region,maduracion,intensidad,descripcion,image}=cheese;
 
     return (
-        <div className="container">
+        <div className="cheese__item">
             <Menubar/>
-            <h2 className="cheese__item__title">{nombre}</h2>
-            <div className="cheese__item" >
+            <h2 className="cheese__item__title mb-1">{nombre}</h2>
+                <Link className="cheese__item__data__link "to="/quesos"><h4>Atrás</h4></Link>
+            <div className="cheese__item__card" >
                 <img src={image} alt={nombre}/>
+                <section className="cheese__item__data__description mt-1" >
+                    <h4 className="mb-1"><b>Descripción:</b></h4>
+                    <h5  >{descripcion}</h5>
+                </section>
                 <ul className="cheese__item__data">
                     <li>Origen: <b>{origen}</b></li>
                     <li>Región: <b>{region}</b></li>
                     <li>Maduración: <b>{maduracion}</b></li>
                     <li>Intensidad: <b>{intensidad}</b></li>
                 </ul>
-                <section className="mt-1">
-                    <h5 ><b>Descripción:</b></h5>
-                    <h6  className="cheese__item__data__description">{descripcion}</h6>
-                    <Link className="cheese__item__data__link "to="/quesos">Volver</Link>
-                </section>
             </div>
-            <Delivery/>
         </div>
     )
 }

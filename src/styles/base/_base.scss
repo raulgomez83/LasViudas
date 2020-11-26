@@ -9,8 +9,8 @@
 
 }
 html,body{
-    background-image: url("../../images/fondo.png");
-    height: 100vh;
+    background-color: lighten($color: $lightyellow, $amount: 10) ;
+    height: auto;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -23,21 +23,17 @@ h1{
      margin-right: 5rem; 
 }
 a{
- /*    color:$darkyellow; */
+    color:black;
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: bold;
     text-decoration: none;
+
 }
 ul{
     list-style: none;
 }
-.container{
-    align-items:center;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: space-evenly;
-    text-align: center;
-    width: 100vw;
-}
+
 
 .link{
     color:$lightyellow;
@@ -59,10 +55,3 @@ ul{
 .pointer{
     cursor: pointer;
 }
-@media (min-width:501px) and (max-width:1080px){
-    .carousel__box{width: 100vw}
-    .carousel .carousel__box img {
-      width: 90vw;
-      min-height: 50vh;
-    }
-  }

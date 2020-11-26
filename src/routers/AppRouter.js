@@ -4,11 +4,7 @@ import { BrowserRouter as Router,Switch,Route,Redirect} from "react-router-dom";
 
 import { CheeseItem } from '../components/cheese/CheeseItem';
 import { CheeseList } from '../components/cheese/CheeseList';
-import { About } from '../components/pages/About';
-import { Contact } from '../components/pages/Contact';
 import { Homepage } from '../components/pages/Homepage';
-import { Offer } from '../components/pages/Offer';
-
 
 export const AppRouter = () => {
     return (
@@ -16,9 +12,6 @@ export const AppRouter = () => {
               <div>
                 <Switch>
                   <Route exact path="/" component={Homepage}/>
-                  <Route exact path="/about" component={About}/>
-                  <Route exact path="/oferta" component={Offer}/>
-                  <Route exact path="/contact" component={Contact}/>
                   <Route exact path="/quesos" component={CheeseList}/>
                   <Route exact path="/queso/:Id" component={CheeseItem}/>
 

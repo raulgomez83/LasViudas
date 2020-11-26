@@ -1,19 +1,18 @@
 import React from 'react';
 
-import { CarouselImages } from '../components/CarouselImages';
-import { Delivery } from '../components/Delivery';
 import { Menubar } from '../components/Menubar';
-
-
-
+import { About } from './About';
+import {Contact} from "./Contact"
+import { Offer } from './Offer';
 
 export const Homepage = () => {
     return (
-< div className="container">
+<>
             <Menubar />
-            <CarouselImages/>
-            <Delivery/>
- </div>
+            <About/>
+            <Offer/>
+            <Contact/>
+ </>
 
     )
 }

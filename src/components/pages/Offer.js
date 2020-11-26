@@ -1,43 +1,30 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
-import offerpicture1 from "../../images/fondue.jpeg";
-import offerpicture2 from "../../images/queso-vino-campo.jpeg";
-import offerpicture3 from "../../images/queso viejo.jpeg";
-
-import { Menubar } from '../components/Menubar';
-import { Delivery } from '../components/Delivery';
-
+import dinner from "../../images/dinner.png"
+import cheese from "../../images/cheese.png"
 import pdf from "../../images/menu.pdf";
 
 export const Offer = () => {
     return (
-        <div className="container">
-        <Menubar/>
-        <section className="home__offer__box animate__animated animate__zoomIn">
-            <div className="home__offer__articles">
-               <article className="home__offer__articles__item">
-                   <img className="home__offer__articles__item__image"src={offerpicture1} alt="menú"/>
-                   <a href={pdf}
-                   download="menú"
-                    rel="noopener"><h3 className="home__offer__articles__item__link">Menú</h3></a>
-                   <p>Donde podrás encontrar elaboraciones y sugerencias que varían según la temporada</p>
-                </article>
-                <article className="home__offer__articles__item">
-                   <img  className="home__offer__articles__item__image"src={offerpicture2} alt="vinos"/>
-                   <h3>Bodega</h3>
-                   <p>Escoge entre los mejores vinos que seleccionamos con mimo para nuestros clientes</p>
-                </article>
-                <article className="home__offer__articles__item">
-                   <img  className="home__offer__articles__item__image"src={offerpicture3} alt="quesos"/>
-                   <h3 className="home__offer__articles__item__link"><Link to="/quesos">Quesos</Link></h3>
-                   <p>Donde disfrutarás de más de 50 variedades tanto nacionales como internacionales</p>
-                </article>
-            </div>
+        <section className="home__offer__box ">
+            <Link to="/quesos">
+                <h2 className=" item img_cheese">Quesos</h2>
+            </Link>
+            <article className="home__offer__article">
+                <div className="offer__p">
+                    <img className="offer__icon" src={dinner} alt="icono cena"/>
+                    <p>Nuestras elaboraciones y sugerencias varían según la temporada, además podrás acompañarlas
+                    por los vinos que seleccionamos con mimo para nuestros clientes.</p></div>
+                <div className="offer__p">
+                    <img className="offer__icon" src={cheese} alt="icono queso"/>
+                    <p>Y no podrían faltar nuestros quesos de los que podrás disfrutar más
+                    de las 40 variedades tanto nacionales como internacionales de las que contamos.</p>
+                </div>
+            </article>
+            <a href={pdf}download="menú"rel="noopener">
+                <h2 className="item img_menu">Menú</h2>
+            </a>
         </section>
-        <Delivery/>
-
-    </div>
     )
 }

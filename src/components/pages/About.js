@@ -1,32 +1,21 @@
 import React from 'react';
 
-import aboutpicture1 from "../../images/queso nueces oscuro.jpeg";
-import aboutpicture2 from "../../images/queso uvas oscuro.jpeg";
-import { Delivery } from '../components/Delivery';
-import { Menubar } from '../components/Menubar';
+import { CarouselImages } from '../components/CarouselImages';
 
 
 
 export const About = () => {
     return (
-<div className="container">
-    <Menubar/>
-    <div className=" animate__animated animate__zoomIn">
     <section className="home__about__box ">
-        <div className="home__about__pictures">
-           <img src={aboutpicture1} alt="queso con nueces"  />
-           <img src={aboutpicture2} alt="quesos apilados"  />
-        </div>
+        <CarouselImages/>
         <article className="home__about__article">
-           <h3 className="mb-1">Sobre nosotros</h3>
+           <h2 className="mb-1">Bienvenidos</h2>
             <p>
-            El primer Cheese Bar de A Coruña, experimenta los sabores del queso en
-            todas sus modalidades en un ambiente amigable y con encanto.
+            al primer Cheese Bar de A Coruña. Experimenta los sabores del queso en
+            todas sus modalidades en un ambiente amigable y con encanto. Sino, también podrás degustar 
+            nuestras tablas de queso en tu casa, realizando previamente tu <a href="#contact">Pedido</a>.
            </p>
         </article>
     </section>
-    </div>
-    <Delivery/>
-</div>
     )
 }

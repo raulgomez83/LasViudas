@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {cheeses} from "../../data/cheeses";
-import { Delivery } from '../components/Delivery';
 import { Menubar } from '../components/Menubar';
 
 import { CheeseCard } from './CheeseCard';
@@ -23,16 +22,15 @@ export const CheeseList = () => {
         });
 
     return (
-        <div className="container">
+        <div className="cheese__container">
             <Menubar/>
             <CheeseSearcher handleFilterChange={handleFilterChange} filteredCheese={filteredCheese}/>
-            <h2 className=" mb-5 animate__animated animate__fadeIn">Nuestra selección de quesos</h2>
+            <h2 className="mt-5">Nuestra selección de quesos</h2>
             <div className="cheese__list__container">
             {orderedCheeses.map( cheese =>{
                 return <CheeseCard key={cheese.id} {...cheese}/>
             })}
             </div>
-            <Delivery/>
         </div>
     )
 }

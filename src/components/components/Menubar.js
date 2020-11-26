@@ -1,30 +1,15 @@
 
-import React, {useState} from 'react';
-
-import { Icon } from '@material-ui/core';
-
-import { Modal } from './Modal';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 import logo from "../../images/logo.png"
 
-
 export const Menubar = () => {
 
-    const [isOpen, setIsOpen] = useState(false);
-
-    const handleModal =()=>{
-        return setIsOpen(!isOpen)
-    }
 
     return (
-        <>
-        <div className="__menubar">
-              <img src={logo} alt="logo queso" className="menubar__logo"/>
-              <Icon onClick={handleModal} style={{ fontSize: 50 }} className="modal__icon__open">menu</Icon>
+        <div className="menubar">
+              <Link to="/"><img src={logo} alt="logo queso" className="menubar__logo"/></Link>
         </div>
-        <Modal open={isOpen}
-              handleModal={handleModal}>
-              </Modal>
-        </>
     )
 }
