@@ -65,10 +65,15 @@
   padding: 0.5rem;
 }
 .cheese__item__data__link{
+  align-items: baseline;
   background-color: $lightyellow;
   color: darken($color: $darkyellow, $amount: 60);
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   margin: 1rem;
   padding: 0.5rem 2rem;
+  width: 6rem;
+}
+.cheese__item__data__link__icon{
+  width: 1rem;
 }
