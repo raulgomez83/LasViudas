@@ -15,6 +15,26 @@
     padding: 2rem 1rem;
     width: 100%;
 }
+.home_contact_socialmedia{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    margin: 1rem;
+
+}
+.home__contact__icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+    width: 50vw;
+}
+.home__contact__icon__link{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 .home__offer__article{
     background-color: $lightyellow;
@@ -57,40 +77,89 @@
     justify-content:space-between;
 }
 .map{
+    grid-area: map;
     width:100vw;
     & iframe{
-        height: 30vh;
+        height: 35vh;
         width:100vw
     }
 }
-
-.home_contact_socialmedia{
-    align-items: center;
-    align-content: center;
-    display: flex;
-    flex-direction:column;
-    justify-content: space-evenly;
-
-}
-.home__contact__icon{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 1rem;
-    width: 50vw;
-}
-.home__contact__icon__link{
-    width: 2.5rem;
-    height: 2.5rem;
+.home__contact__phone{
+    grid-area: phone;
 }
 .home__contact__data{
     align-items: center;
     background-color: rgba($color: $darkyellow, $alpha: 0.4);
     display: flex;
+    grid-area: data;
     justify-content: space-between;
     padding: 0.5rem 1rem;
     text-align: center;
     width: 100vw;
 }
+.phone{
+    width: 1.1rem;
+}
 
 
+//##############################################################################################
+//##########################################################################################
+
+@media (min-width: 600px){
+    .home__about__box{
+        background-color: white;
+    }
+    .home__about__article{
+        background-color: $lightyellow;
+        width:90vw;
+        margin:1rem 0 2rem;
+    }
+    .home__contact__data{
+        justify-content: space-around;
+    }
+/////////////////////////////////////////////
+.home__offer__box{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+
+}
+.home__offer__box h2{
+    height: 30vh;
+    width: 60vw;
+    }
+.home__offer__article{
+    margin:2rem 0;
+    width: 90vw;
+}   
+.offer__p{
+    flex-direction: column;
+    justify-content: space-around;
+     & img{
+         margin-bottom: 1rem;
+     }
+}
+
+/////////////////////////////////////////////
+.home__contact{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20rem 4rem;
+    grid-template-areas: "phone map "
+    "data data"
+    ;
+}
+.map{
+    width:30vw;
+    & iframe{
+        height: 20vh;
+        width:40vw
+    }
+}
+
+
+}
 

@@ -8,7 +8,7 @@ import { Offer } from './Offer';
 export const Homepage = () => {
     return (
 <>
-            <Menubar />
+            <Menubar/>
             <About/>
             <Offer/>
             <Contact/>

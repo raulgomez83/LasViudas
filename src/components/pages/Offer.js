@@ -8,7 +8,7 @@ import pdf from "../../images/menu.pdf";
 export const Offer = () => {
     return (
         <section className="home__offer__box ">
-            <Link to="/quesos">
+            <Link  to="/quesos">
                 <h2 className=" item img_cheese">Quesos</h2>
             </Link>
             <article className="home__offer__article">

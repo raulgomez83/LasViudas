@@ -16,7 +16,8 @@
     list-style: none;
   }
   .carousel img {
-    width: 50%;
+    height: 15rem;
+    width: 100%;
   }
   @keyframes cambio {
     0% {margin-left: 0;}
@@ -35,11 +36,11 @@
 
     100% {margin-left: -300%;}
   }
+  @media (min-width: 600px){
 
-  @media (max-width:500px){
     .carousel img {
-      width: 100%;
-      height: 40vh;
+      height: 30vh;
+      width: 60vw;
     }
-    
   }
+
