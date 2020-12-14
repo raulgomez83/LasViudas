@@ -1,5 +1,5 @@
 
-import React, { useMemo} from 'react';
+import React, { useEffect, useMemo} from 'react';
 import { Link, Redirect, useParams } from 'react-router-dom';
 
 import { Menubar } from '../components/Menubar';
@@ -8,6 +8,10 @@ import {getCheeseById} from "./getCheeseById";
 import backIcon from "../../images/back-icon.png"
 
 export const CheeseItem = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     const {Id}= useParams();
     const cheese=  useMemo(() => getCheeseById(Id),[Id]);

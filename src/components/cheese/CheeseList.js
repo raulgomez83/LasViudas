@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {cheeses} from "../../data/cheeses";
 import { Menubar } from '../components/Menubar';
 
@@ -6,6 +6,10 @@ import { CheeseCard } from './CheeseCard';
 import { CheeseSearcher } from './CheeseSearcher';
 
 export const CheeseList = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     const [filteredCheese, setFilteredCheese] = useState("")
 
     const handleFilterChange = (event) => {
@@ -25,7 +29,7 @@ export const CheeseList = () => {
         <div className="cheese__container">
             <Menubar/>
             <CheeseSearcher handleFilterChange={handleFilterChange} filteredCheese={filteredCheese}/>
-            <h2 className="mt-5">Nuestra selección de quesos</h2>
+            <h2 className="cheese__card__title">Nuestra selección de quesos</h2>
             <div className="cheese__list__container">
             {orderedCheeses.map( cheese =>{
                 return <CheeseCard key={cheese.id} {...cheese}/>
