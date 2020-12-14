@@ -2,7 +2,7 @@
 import React, { useEffect, useMemo} from 'react';
 import { Link, Redirect, useParams } from 'react-router-dom';
 
-import { Menubar } from '../components/Menubar';
+
 import {getCheeseById} from "./getCheeseById";
 
 import backIcon from "../../images/back-icon.png"
@@ -22,14 +22,13 @@ export const CheeseItem = () => {
 
     return (
         <div className="cheese__item">
-            <Menubar/>
             <h2 className="cheese__item__title mb-1">{nombre}</h2>
-                <Link className="cheese__item__data__link "to="/quesos">
-                    <img  className="cheese__item__data__link__icon"src={backIcon} alt="icono atrás"/>
-                    <h4>Volver</h4> 
-                </Link>
+            <Link className="cheese__item__data__link "to="/quesos">
+                <img  className="cheese__item__data__link__icon"src={backIcon} alt="icono atrás"/>
+                <h4>Volver</h4> 
+            </Link>
             <div className="cheese__item__card" >
-                <img src={image} alt={nombre}/>
+                <img  className="cheese__item__card__img"src={image} alt={nombre}/>
                 <section className="cheese__item__data__description mt-1" >
                     <h4 className="mb-1"><b>Descripción:</b></h4>
                     <h5  >{descripcion}</h5>

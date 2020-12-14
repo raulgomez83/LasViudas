@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {cheeses} from "../../data/cheeses";
-import { Menubar } from '../components/Menubar';
+
 
 import { CheeseCard } from './CheeseCard';
 import { CheeseSearcher } from './CheeseSearcher';
@@ -27,7 +27,6 @@ export const CheeseList = () => {
 
     return (
         <div className="cheese__container">
-            <Menubar/>
             <CheeseSearcher handleFilterChange={handleFilterChange} filteredCheese={filteredCheese}/>
             <h2 className="cheese__card__title">Nuestra selección de quesos</h2>
             <div className="cheese__list__container">

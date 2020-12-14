@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import dinner from "../../images/dinner.png"
 import cheese from "../../images/cheese.png"
-import pdf from "../../images/menu.pdf";
+import pdf from "../../pdf/menu.pdf";
 
 export const Offer = () => {
     return (

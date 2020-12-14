@@ -1,5 +1,15 @@
 
+.cheese__container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .cheese__list__container{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   max-width: 100vw;
 }
 .cheese__card__title{
@@ -36,12 +46,13 @@
     background-image: url(../../images/fondo.png);
     display: flex;
     flex-direction: column;
-    height: auto;
+    height: 80vh;
     justify-content: center;
 }
 .cheese__item__title{
   font-family: "Satisfy";
   font-size: 3rem;
+
 }
 .cheese__item__card{
   align-items: center;
@@ -52,16 +63,24 @@
 }
 .cheese__item__data{
       align-items: center;
-
+      align-self: center;
       display:flex;
       flex-direction: column;
+      grid-area:data;
       height: 100%;
       justify-content: space-evenly;
       list-style: none;
       margin: 2rem 3rem;
 }
+.cheese__item__card__img{
+  align-self: center;
+  grid-area: image;
+}
 .cheese__item__data__description{
+  align-self: center;
   background-color: $darkyellow;
+  grid-area: descript;
+  justify-self: center;
   margin: 0.5rem 1rem;
   padding: 0.5rem;
 }
@@ -73,8 +92,39 @@
   justify-content: center;
   margin: 1rem;
   padding: 0.5rem 2rem;
+  position: fixed;
+  top:7.4rem;
   width: 6rem;
+  z-index: 99;
 }
 .cheese__item__data__link__icon{
   width: 1rem;
+}
+
+
+@media (min-width: 700px) {
+  .cheese__item__card{
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:   1fr 1fr;
+    grid-template-areas:
+          "image data"
+          "descript descript";
+    justify-content: center;
+  }
+  .cheese__item__card__img{
+    margin-left: 3rem;
+    width: 25rem;
+  }
+  .cheese__card_img{
+    height: 15rem;
+    width: 20rem;
+  }
+  .cheese__item__data{
+    justify-content: center;
+  }
+  .cheese__item__data__description{
+    width: 30rem;
+  }
 }
