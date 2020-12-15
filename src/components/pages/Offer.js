@@ -23,7 +23,7 @@ export const Offer = () => {
                 </div>
             </article>
             <div className="container__img__menu">
-            <a href={pdf}download="menú"rel="noopener"><h6 className="item img_menu">Menú</h6></a>
+            <a href={pdf}target="_blank "rel="noopener"><h6 className="item img_menu">Menú</h6></a>
             </div>
         </section>
     )
