@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 
 import dinner from "../../images/dinner.png"
 import cheese from "../../images/cheese.png"
@@ -8,9 +8,9 @@ import pdf from "../../pdf/menu.pdf";
 export const Offer = () => {
     return (
         <section className="home__offer__box ">
-            <Link  to="/quesos">
-                <h2 className=" item img_cheese">Quesos</h2>
-            </Link>
+            <div className="container__img__quesos">
+            <NavLink  to="/quesos"><h6 className=" item img_cheese">Quesos</h6></NavLink>
+            </div>
             <article className="home__offer__article">
                 <div className="offer__p">
                     <img className="offer__icon" src={dinner} alt="icono cena"/>
@@ -22,9 +22,9 @@ export const Offer = () => {
                     de las 40 variedades tanto nacionales como internacionales de las que contamos.</p>
                 </div>
             </article>
-            <a href={pdf}download="menú"rel="noopener">
-                <h2 className="item img_menu">Menú</h2>
-            </a>
+            <div className="container__img__menu">
+            <a href={pdf}download="menú"rel="noopener"><h6 className="item img_menu">Menú</h6></a>
+            </div>
         </section>
     )
 }

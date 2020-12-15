@@ -16,7 +16,7 @@ export const About = () => {
             <p>
             el primer Cheese Bar de A Coruña. Experimenta los sabores del queso en
             todas sus modalidades en un ambiente amigable y con encanto. Sino, también podrás degustar 
-            nuestras tablas de queso en tu casa, realizando previamente tu <a href="#contact">Pedido</a>.
+            nuestras tablas de queso en tu casa, realizando previamente tu <a id="pedido"href="#contact">Pedido</a>.
            </p>
            <div className="home_contact_socialmedia">
                 <p>También puedes seguirnos en:</p>

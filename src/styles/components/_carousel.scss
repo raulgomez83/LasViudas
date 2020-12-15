@@ -37,11 +37,20 @@
 
     100% {margin-left: -300%;}
   }
+
+
   @media (min-width: 600px){
 
     .carousel img {
       height: 30vh;
       width: 60vw;
+    }
+  }
+  @media (min-width: 1200px){
+
+    .carousel img {
+      height: 40vh;
+      width: 30vw;
     }
   }
 

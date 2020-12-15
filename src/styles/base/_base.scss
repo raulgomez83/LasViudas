@@ -12,6 +12,7 @@ html,body{
     background-color: lighten($color: $lightyellow, $amount: 10) ;
     height: auto;
     margin: 0;
+    overflow-x: hidden;
     padding: 0;
     text-align: center;
     width: 100vw;

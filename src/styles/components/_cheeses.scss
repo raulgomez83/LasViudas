@@ -48,6 +48,7 @@
     flex-direction: column;
     height: 80vh;
     justify-content: center;
+    margin-top: 5rem;
 }
 .cheese__item__title{
   font-family: "Satisfy";
@@ -56,7 +57,6 @@
 }
 .cheese__item__card{
   align-items: center;
-  background-color: rgba($color: $lightyellow, $alpha: 0.6);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,8 +86,8 @@
 }
 .cheese__item__data__link{
   align-items: baseline;
-  background-color: $lightyellow;
-  color: darken($color: $darkyellow, $amount: 60);
+  background-color: $yellow;
+  color: darken($color: $darkyellow, $amount: 70);
   display: flex;
   justify-content: center;
   margin: 1rem;
@@ -103,15 +103,15 @@
 
 
 @media (min-width: 700px) {
+  .cheese__item{margin-top: 0;}
   .cheese__item__card{
-    align-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:   1fr 1fr;
     grid-template-areas:
           "image data"
           "descript descript";
-    justify-content: center;
+    margin-top: 2rem;
   }
   .cheese__item__card__img{
     margin-left: 3rem;
@@ -127,4 +127,70 @@
   .cheese__item__data__description{
     width: 30rem;
   }
+  .cheese__item__data__link{
+    margin-top: 7rem;
+  }
+}
+
+
+
+
+@media (min-width: 1000px) {
+  .cheese__item{
+    margin-top: 5rem;
+  }
+  .cheese__item__card{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+  }
+  .cheese__item__card__img{
+    height: 40rem;
+    width: 30rem;
+  }
+  .cheese__item__data__description{
+    font-size: 1.3rem;
+    margin: 2rem;
+    width: 40rem;
+  }
+  .cheese__item__data{
+    margin-top: -7rem;
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  .cheese__item{
+overflow: hidden;
+  }
+.cheese__item__title{
+  margin-top: 12rem ;
+}
+  .cheese__item__card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+          "image data descript";
+    margin: 5rem 5rem 0;
+}
+.cheese__item__card__img{
+  height: 24rem;
+  width: 25rem;
+}
+.cheese__item__data__description{
+  margin: 2rem;
+  width: 20rem;
+}
+.cheese__item__data{
+  margin-top: 0;
+  width: 20rem;
+  font-size: 1.5rem;
+}
+.cheese__item__data__link{
+  margin-top: 5.7rem;
+}
+
 }

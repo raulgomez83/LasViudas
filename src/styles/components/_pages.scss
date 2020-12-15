@@ -36,9 +36,13 @@
     width: 2.5rem;
 }
 
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 .home__offer__article{
+    align-self: center;
     background-color: $lightyellow;
+    grid-area: article;
+    justify-self:center;
     padding: 0.5rem ;
     text-align: center;
 }
@@ -62,13 +66,25 @@
 }
 .img_menu{
     background-image: url(../../images/dinner.jpg);
+    background-size: cover;
 }
 .img_cheese{
     background-image: url(../../images/cheese.jpg);
+    background-size: cover;
 }
 .offer__icon{
     margin-right: 1rem;
-    width: 2.5rem;}
+    width: 2.5rem;
+}
+.container__img__menu{
+        grid-area:menuimg;
+        justify-self:center;
+}
+.container__img__quesos{
+        grid-area:quesos;
+        justify-self:center;
+}
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 .home__contact{
@@ -163,7 +179,42 @@
         width:40vw
     }
 }
-
-
 }
+///////////////############################################################################
+/////////#################################################################################
 
+@media (min-width: 1200px){
+
+    .home__about__article{
+            max-width: 50rem;
+    }
+    #pedido{
+        font-size: 1.5rem;
+    }
+    .home__contact__icon__link:hover{
+            transition: 0.8s;
+            cursor: pointer;
+            transform: scale(2);
+    }
+    .home__offer__box{
+        align-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+             "quesos menuimg"
+             "article article";
+    }
+   .home__offer__article{
+      margin-top: 3rem;
+      width: 55rem;
+ 
+    }
+    h6{
+        max-width: 35rem;
+        min-height: 25rem;
+    }
+
+    ///////////////////////////////////////
+
+    }

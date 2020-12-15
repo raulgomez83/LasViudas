@@ -10,3 +10,13 @@
 .menubar__logo{
     width: 13rem;
 };
+@media (min-width: 700px) {
+    .menubar__logo{
+        width: 16rem;
+    };
+}
+@media (min-width: 1200px) {
+    .menubar__logo{
+        width: 16rem;
+    };
+}
