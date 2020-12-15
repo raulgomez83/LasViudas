@@ -194,7 +194,7 @@
             max-width: 50rem;
     }
     #pedido{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
     .home__contact__icon__link:hover{
             transition: 0.8s;
@@ -213,11 +213,15 @@
    .home__offer__article{
       margin-top: 3rem;
       width: 55rem;
- 
+
     }
     h6{
         max-width: 35rem;
         min-height: 25rem;
+        &:hover{
+            transition: 0.5s;
+            transform: scale(1.1);
+        }
     }
 
     ///////////////////////////////////////
