@@ -43,7 +43,7 @@
     background-color: $lightyellow;
     grid-area: article;
     justify-self:center;
-    padding: 0.5rem ;
+    padding:2rem 0.5rem ;
     text-align: center;
 }
 .offer__p{
@@ -92,9 +92,14 @@
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+    margin-top: 2rem;
+}
+#contact{
+    margin: 2rem 0 4rem;
 }
 .map{
     grid-area: map;
+
     width:100vw;
     & iframe{
         height: 35vh;
@@ -110,7 +115,7 @@
     display: flex;
     grid-area: data;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     text-align: center;
     width: 100vw;
 }
