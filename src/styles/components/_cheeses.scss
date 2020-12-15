@@ -29,9 +29,11 @@
     flex-direction: column;
     height: auto;
     justify-content: center;
-    margin: 2rem 1rem;
+    margin: 1.5rem 1rem;
+    padding-bottom:  1rem;
     & h2{
-      height: 2rem;
+      height: 3rem;
+      padding: 1rem;
       width: 100%;
     }
   }
@@ -48,7 +50,7 @@
     flex-direction: column;
     height: 80vh;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 .cheese__item__title{
   font-family: "Satisfy";
@@ -67,10 +69,13 @@
       display:flex;
       flex-direction: column;
       grid-area:data;
-      height: 100%;
       justify-content: space-evenly;
       list-style: none;
       margin: 2rem 3rem;
+
+      & li{
+        margin-bottom: 0.3rem;
+      }
 }
 .cheese__item__card__img{
   align-self: center;
@@ -81,8 +86,9 @@
   background-color: $darkyellow;
   grid-area: descript;
   justify-self: center;
-  margin: 0.5rem 1rem;
-  padding: 0.5rem;
+  line-height: 1.2rem;
+  margin: 1rem 1rem 0;
+  padding: 1rem ;
 }
 .cheese__item__data__link{
   align-items: baseline;
@@ -144,19 +150,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-top: 2rem;
+    margin-top: 0rem;
   }
   .cheese__item__card__img{
-    height: 40rem;
+    height: 35rem;
     width: 30rem;
   }
   .cheese__item__data__description{
     font-size: 1.3rem;
     margin: 2rem;
     width: 40rem;
-  }
-  .cheese__item__data{
-    margin-top: -7rem;
   }
 }
 
@@ -167,22 +170,23 @@
 overflow: hidden;
   }
 .cheese__item__title{
-  margin-top: 12rem ;
+  margin-top: 28rem ;
 }
   .cheese__item__card{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
           "image data descript";
-    margin: 5rem 5rem 0;
+    margin: 0 5rem 0;
 }
 .cheese__item__card__img{
-  height: 24rem;
-  width: 25rem;
+  height: 20rem;
+  width: 20rem;
 }
 .cheese__item__data__description{
-  margin: 2rem;
-  width: 20rem;
+  line-height: 1.5rem;
+  padding: 2rem;
+  width: 25rem;
 }
 .cheese__item__data{
   margin-top: 0;

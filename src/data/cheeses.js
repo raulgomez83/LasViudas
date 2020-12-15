@@ -38,7 +38,7 @@ export const cheeses=[
         "maduracion":"Semicurado",
         "intensidad":"Fuerte",
         "image":"../assets/images/comte.jpeg",
-        "descripcion":"Tiene forma de enorme rueda que puede alcanzar los 40 kilos. Hacen falta alrededor de 450 litros de leche para producir una sola rueda de comté. Tiene entre un 30 y un 45% de materia grasa. La corteza se trata con Bacillus lineus, de manera que va del amarillo al pardo. La pasta es firme, ligera y flexible: su color va del amarillo crema al oscuro. Presenta algunos ojos. Se Craccyeriza por su gran aroma.",
+        "descripcion":"Tiene forma de enorme rueda que puede alcanzar los 40 kilos. Hacen falta alrededor de 450 litros de leche para producir una sola rueda de comté. Tiene entre un 30 y un 45% de materia grasa. La corteza se trata con Bacillus lineus, de manera que va del amarillo al pardo. La pasta es firme, ligera y flexible: su color va del amarillo crema al oscuro. Presenta algunos ojos. Se caracteriza por su gran aroma.",
     },
     {
         "id":"parmigiano",
