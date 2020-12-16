@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.149862c4.chunk.css",
+    "main.js": "/static/js/main.936b95d6.chunk.js",
+    "main.js.map": "/static/js/main.936b95d6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c29472c5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c29472c5.js.map",
+    "static/js/2.cee8712b.chunk.js": "/static/js/2.cee8712b.chunk.js",
+    "static/js/2.cee8712b.chunk.js.map": "/static/js/2.cee8712b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.149862c4.chunk.css.map": "/static/css/main.149862c4.chunk.css.map",
+    "static/js/2.cee8712b.chunk.js.LICENSE.txt": "/static/js/2.cee8712b.chunk.js.LICENSE.txt",
+    "static/media/carousel1.6f7a0bc5.jpg": "/static/media/carousel1.6f7a0bc5.jpg",
+    "static/media/carousel2.536f05c3.jpg": "/static/media/carousel2.536f05c3.jpg",
+    "static/media/carousel3.21f2ad0b.jpg": "/static/media/carousel3.21f2ad0b.jpg",
+    "static/media/carousel4.afb5ac29.jpg": "/static/media/carousel4.afb5ac29.jpg",
+    "static/media/cheese.634c1430.png": "/static/media/cheese.634c1430.png",
+    "static/media/styles.scss": "/static/media/fondo.49eb2159.png",
+    "static/media/instagram.e60793f4.png": "/static/media/instagram.e60793f4.png",
+    "static/media/logo.390eff22.png": "/static/media/logo.390eff22.png",
+    "static/media/menu.d0cc51dc.pdf": "/static/media/menu.d0cc51dc.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c29472c5.js",
+    "static/js/2.cee8712b.chunk.js",
+    "static/css/main.149862c4.chunk.css",
+    "static/js/main.936b95d6.chunk.js"
+  ]
+}
