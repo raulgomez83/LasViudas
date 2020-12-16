@@ -19,7 +19,7 @@ export const About = () => {
             nuestras tablas de queso en tu casa, realizando previamente tu <a id="pedido"href="#contact">Pedido</a>.
            </p>
            <div className="home_contact_socialmedia">
-                <p>También puedes seguirnos en:</p>
+                <p>Además puedes seguirnos en:</p>
                 <nav className="home__contact__icon">
                     <a href="https://www.facebook.com/LasViudasCheeseBar/" >
                         <img className="home__contact__icon__link" src={facebook} alt="facebook"/>
