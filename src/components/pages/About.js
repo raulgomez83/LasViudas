@@ -12,10 +12,10 @@ export const About = () => {
     <section className="home__about__box ">
         <CarouselImages/>
         <article className="home__about__article">
-           <h2 className="mb-1">Bienvenidos a Las Viudas,</h2>
+           <h2 className="mb-1">Bienvenido a Las Viudas,</h2>
             <p>
             el primer Cheese Bar de A Coruña. Experimenta los sabores del queso en
-            todas sus modalidades en un ambiente amigable y con encanto. Si no, también podrás degustar 
+            todas sus modalidades en un ambiente amigable y con encanto. También podrás degustar 
             nuestras tablas de queso en tu casa, realizando previamente tu <a id="pedido"href="#contact">Pedido</a>.
            </p>
            <div className="home_contact_socialmedia">

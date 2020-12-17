@@ -15,11 +15,11 @@ export const Offer = () => {
                 <div className="offer__p">
                     <img className="offer__icon" src={dinner} alt="icono cena"/>
                     <p>Nuestras elaboraciones y sugerencias varían según la temporada, además podrás acompañarlas
-                    por los vinos que seleccionamos con mimo para nuestros clientes.</p></div>
+                    con los vinos que seleccionamos con mimo para nuestros clientes.</p></div>
                 <div className="offer__p">
                     <img className="offer__icon" src={cheese} alt="icono queso"/>
-                    <p>Y no podrían faltar nuestros quesos de los que podrás disfrutar más
-                    de las 40 variedades tanto nacionales como internacionales de las que contamos.</p>
+                    <p>Y no podrían faltar nuestros quesos, de los que podrás disfrutar más
+                    de las 40 variedades tanto nacionales como internacionales con las que contamos.</p>
                 </div>
             </article>
             <div className="container__img__menu">
