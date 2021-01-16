@@ -171,15 +171,10 @@
       "phone map "
       "data data";
   }
-  .contact__phone {
-    font-size: 2rem;
-    font-weight: bolder;
-  }
   .map {
-    margin-bottom: 2rem;
     width: 30vw;
     & iframe {
-      height: 40vh;
+      height: 20vh;
       width: 40vw;
     }
   }
@@ -218,6 +213,18 @@
     &:hover {
       transition: 0.8s;
       transform: scale(1.1);
+    }
+  }
+  .contact__phone {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  .map {
+    margin-bottom: 2rem;
+    width: 30vw;
+    & iframe {
+      height: 40vh;
+      width: 40vw;
     }
   }
 
