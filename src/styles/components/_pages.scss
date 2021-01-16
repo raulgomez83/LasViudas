@@ -1,229 +1,225 @@
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
 
-
-.home__about__box{
-    align-items: center;
-    background-color: $lightyellow;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.home__about__box {
+  align-items: center;
+  background-color: $lightyellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-.home__about__article{
-    align-items: center;
-    color: darken($color: $darkyellow, $amount: 90);
-    flex-direction: column;
-    padding: 2rem 1rem;
-    width: 100%;
+.home__about__article {
+  align-items: center;
+  color: darken($color: $darkyellow, $amount: 90);
+  flex-direction: column;
+  padding: 2rem 1rem;
+  width: 100%;
 }
-.home_contact_socialmedia{
-    align-items: center;
-    align-content: center;
-    display: flex;
-    flex-direction:column;
-    justify-content: space-evenly;
-    margin: 1rem 0 -1rem;
-
+.home_contact_socialmedia {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 1rem 0 -1rem;
 }
-.home__contact__icon{
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    width: 50vw;
+.home__contact__icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  width: 50vw;
 }
-.home__contact__icon__link{
-    height: 2.5rem;
-    margin: 1rem;
-    width: 2.5rem;
+.home__contact__icon__link {
+  height: 2.5rem;
+  margin: 1rem;
+  width: 2.5rem;
 }
-
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
-.home__offer__article{
-    align-self: center;
-    background-color: $lightyellow;
-    grid-area: article;
-    justify-self:center;
-    padding:2rem 0.5rem ;
-    text-align: center;
+.home__offer__article {
+  align-self: center;
+  background-color: $lightyellow;
+  grid-area: article;
+  justify-self: center;
+  padding: 2rem 0.5rem;
+  text-align: center;
 }
-.offer__p{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 1rem;
-
+.offer__p {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
 }
-.item{
-    align-items: center;
-    background-size:cover ;
-    color:white;
-    display: flex;
-    font-size: 2rem;
-    height: 35vh;
-    justify-content: center;
-    text-shadow: 1px 1px 1px black;
-    width:100vw;
+.item {
+  align-items: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  font-size: 2rem;
+  height: 35vh;
+  justify-content: center;
+  text-shadow: 1px 1px 1px black;
+  width: 100vw;
 }
-.img_menu{
-    background-image: url(../../images/dinner.jpg);
-    background-size: cover;
+.img_menu {
+  background-image: url(../../images/dinner.jpg);
+  background-size: cover;
 }
-.img_cheese{
-    background-image: url(../../images/cheese.jpg);
-    background-size: cover;
+.img_cheese {
+  background-image: url(../../images/cheese.jpg);
+  background-size: cover;
 }
-.offer__icon{
-    margin-right: 1rem;
-    width: 2.5rem;
+.offer__icon {
+  margin-right: 1rem;
+  width: 2.5rem;
 }
-.container__img__menu{
-        grid-area:menuimg;
-        justify-self:center;
+.container__img__menu {
+  grid-area: menuimg;
+  justify-self: center;
 }
-.container__img__quesos{
-        grid-area:quesos;
-        justify-self:center;
+.container__img__quesos {
+  grid-area: quesos;
+  justify-self: center;
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-.home__contact{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    margin-top: 2rem;
+.home__contact {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2rem;
 }
-#contact{
-    margin: 2rem 0 4rem;
+#contact {
+  margin: 2rem 0 4rem;
 }
-.map{
-    grid-area: map;
+.map {
+  grid-area: map;
 
-    width:100vw;
-    & iframe{
-        height: 35vh;
-        width:100vw
-    }
-}
-.home__contact__phone{
-    grid-area: phone;
-}
-.home__contact__data{
-    align-items: center;
-    background-color: rgba($color: $darkyellow, $alpha: 0.4);
-    display: flex;
-    grid-area: data;
-    justify-content: space-between;
-    padding: 0.5rem 2rem;
-    text-align: center;
+  width: 100vw;
+  & iframe {
+    height: 35vh;
     width: 100vw;
+  }
 }
-.phone{
-    width: 1.1rem;
+.home__contact__phone {
+  grid-area: phone;
 }
-
+.home__contact__data {
+  align-items: center;
+  background-color: rgba($color: $darkyellow, $alpha: 0.4);
+  display: flex;
+  grid-area: data;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  width: 100vw;
+}
+.phone {
+  width: 1.1rem;
+}
 
 //##############################################################################################
 //##########################################################################################
 
-@media (min-width: 600px){
-    p{
-        font-size: 1.3rem;
-    }
-    .home__about__box{
-        background-color: white;
-    }
-    .home__about__article{
-        background-color: $lightyellow;
-        width:90vw;
-        margin:1rem 0 2rem;
-    }
-    .home__contact__data{
-        justify-content: space-around;
-    }
-/////////////////////////////////////////////
-.home__offer__box{
+@media (min-width: 600px) {
+  p {
+    font-size: 1.3rem;
+  }
+  .home__about__box {
+    background-color: white;
+  }
+  .home__about__article {
+    background-color: $lightyellow;
+    width: 90vw;
+    margin: 1rem 0 2rem;
+  }
+  .home__contact__data {
+    justify-content: space-around;
+  }
+  /////////////////////////////////////////////
+  .home__offer__box {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-bottom: 2rem;
-
-}
-.home__offer__box h6{
+  }
+  .home__offer__box h6 {
     height: 30vh;
     width: 60vw;
-    }
-.home__offer__article{
-    margin:2rem 0;
+  }
+  .home__offer__article {
+    margin: 2rem 0;
     width: 90vw;
-}   
-.offer__p{
+  }
+  .offer__p {
     flex-direction: column;
     justify-content: space-around;
-     & img{
-         margin-bottom: 1rem;
-     }
-}
+    & img {
+      margin-bottom: 1rem;
+    }
+  }
 
-/////////////////////////////////////////////
-.home__contact{
+  /////////////////////////////////////////////
+  .home__contact {
     align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 20rem 4rem;
-    grid-template-areas: "phone map "
-    "data data"
-    ;
-}
-.map{
-    width:30vw;
-    & iframe{
-        height: 20vh;
-        width:40vw
+    grid-template-areas:
+      "phone map "
+      "data data";
+  }
+  .contact__phone {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  .map {
+    margin-bottom: 2rem;
+    width: 30vw;
+    & iframe {
+      height: 40vh;
+      width: 40vw;
     }
-}
+  }
 }
 ///////////////############################################################################
 /////////#################################################################################
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
+  .home__about__article {
+    max-width: 50rem;
+  }
+  #pedido {
+    font-size: 1.7rem;
+  }
+  .home__contact__icon__link:hover {
+    transition: 0.8s;
+    cursor: pointer;
+    transform: scale(2);
+  }
+  .home__offer__box {
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "quesos menuimg"
+      "article article";
+  }
+  .home__offer__article {
+    margin-top: 3rem;
+    width: 55rem;
+  }
+  h6 {
+    max-width: 35rem;
+    min-height: 25rem;
+    &:hover {
+      transition: 0.8s;
+      transform: scale(1.1);
+    }
+  }
 
-    .home__about__article{
-            max-width: 50rem;
-    }
-    #pedido{
-        font-size: 1.7rem;
-    }
-    .home__contact__icon__link:hover{
-            transition: 0.8s;
-            cursor: pointer;
-            transform: scale(2);
-    }
-    .home__offer__box{
-        align-content: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:
-             "quesos menuimg"
-             "article article";
-    }
-   .home__offer__article{
-      margin-top: 3rem;
-      width: 55rem;
-
-    }
-    h6{
-        max-width: 35rem;
-        min-height: 25rem;
-        &:hover{
-            transition: 0.8s;
-            transform: scale(1.1);
-        }
-    }
-
-    ///////////////////////////////////////
-
-    }
+  ///////////////////////////////////////
+}
