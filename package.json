@@ -32,7 +32,10 @@
     ],
     "rules": {
       "prettier/prettier": "error"
-    }
+    },
+    "eslint.workingDirectories": [
+      "./client"
+    ]
   },
   "browserslist": {
     "production": [
